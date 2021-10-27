@@ -324,6 +324,12 @@ ul, ol {
 
 
 /* Media Queries */
+@media (max-width: 991px) {
+    /* Intro */
+    .intro {
+        background-attachment: inherit;
+    }
+}
 @media (max-width: 767px) {
 	/* Nav */
 	.nav {
